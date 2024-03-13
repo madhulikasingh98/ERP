@@ -1,0 +1,134 @@
+/* App.css */
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(236, 222, 222); /* Set your desired background color */
+}
+
+
+.dashboard-container {
+  background-color: rgb(236, 222, 222);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+h1 {
+  text-align:center;
+}
+
+.dashboard-info {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.test {
+ display: flex;
+ justify-content: space-between;
+}
+
+.dashboard-link {
+  display: inline-block;
+  color: blue;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+}
+
+.dashboard-link:hover {
+  background-color: #efdfdf;
+}
+.dashboard-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.clicked-link {
+color: #45a049; /* Change the background color when clicked */
+}
+
+/* Styles for specific links */
+.manage-products {
+  color: #343fdb; /* Blue color */
+}
+
+.manage-orders {
+  color: #343fdb; /* Blue color */
+
+}
+
+.calendar-view {
+  color: #343fdb; /* Blue color */
+}
+.dashboard-link.calendar-view-custom {
+  color: purple; /* Change the color of the "Calendar View" link */
+}
+
+.dashboard-link.calendar-view-custom:hover {
+  color: blue; /* Change the hover color of the "Calendar View" link */
+}
+.dashboard-link.dashboard-link-custom {
+  color: rgb(121, 210, 121); /* Change the color of the "Dashboard" link */
+}
+
+.dashboard-link.dashboard-link-custom:hover {
+  color: darkgreen; 
+}
+.clicked-link {
+  color: rgb(226, 162, 162); /* Change the color of the link when clicked */
+}
+/* App.css */
+
+.dashboard-link.manage-orders-custom {
+  color: orange; /* Change the color of the "Manage Orders" link */
+}
+
+.dashboard-link.manage-orders-custom:hover {
+  color: red; /* Change the hover color of the "Manage Orders" link */
+}
